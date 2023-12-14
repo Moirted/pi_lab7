@@ -28,8 +28,8 @@ def arabic_to_roman(number):
 
 # Пример использования
 try:
-    arabic_number = int(input("Введите арабское число (от 1 до 3999): "))
-    roman_number = arabic_to_roman(arabic_number)
-    print(f"Римская запись числа {arabic_number}: {roman_number}")
+    # arabic_number = int(input("Введите арабское число (от 1 до 3999): "))
+    roman_number = arabic_to_roman(55)
+    print(f"Римская запись числа {55}: {roman_number}")
 except ValueError as e:
     print(f"Ошибка: {e}")
